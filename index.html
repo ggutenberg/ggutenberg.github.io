@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Garth Gutenberg</title>
+		<link rel="profile" href="http://microformats.org/profile/hresume">
+		<link rel="profile" href="http://microformats.org/profile/hcard">
+		<link rel="profile" href="http://microformats.org/profile/hcalendar">
+		<style type="text/css" media="print">
+			body {
+				margin:0;
+				padding:0;
+				line-height:1.4em;
+				word-spacing:1px;
+				letter-spacing:0.2px;
+				font:12px Arial, Helvetica,"Lucida Grande", serif;
+				color:#000;
+			}
+			a {
+				font-style:italic;
+				text-decoration:none;
+				color:#000;
+			}
+			h1 {
+				margin-top:0;
+			}
+			h1, h2 {
+				font-variant:small-caps;
+				margin-bottom:0;
+			}
+			h3 {
+				margin-bottom:0;
+				margin-top:0;
+			}
+			h4 {
+				margin-top:.5em;
+				margin-bottom:0;
+			}
+			ul {
+				margin-top:0;
+				margin-bottom:0;
+			}
+			.description-wrapper ul.top {
+				list-style:none;
+			}
+			.underline {
+				border-bottom-style:solid;
+				border-bottom-width:1px;
+				border-color:#000;
+				margin-bottom:10px;
+			}
+			#hcard-Garth-Gutenberg {
+				text-align:center;
+			}
+			.hidden {
+				display:none;
+			}
+			.dates {
+				font-size:80%;
+				line-height:1em;
+			}
+			.experience {
+				margin-bottom:10px;
+			}
+			.page-break {
+				display:block;
+				page-break-before:always;
+			}
+            footer {
+                display:none;
+            }
+		</style>
+		<style type="text/css" media="screen">
+			body {
+				font-size:16px;
+				max-width:1200px;
+				min-width:700px;
+				font-family:arial,sans-serif;
+				margin-left:40px;
+				margin-right:40px;
+				margin-top:10px;
+				padding:0;
+				margin-bottom:20px;
+				letter-spacing:1px;
+				line-height:1.3em;
+				background-color:#fec;
+				color:#000;
+			}
+			a {
+				color:#442;
+				text-decoration:none;
+				display:inline-block;
+				-webkit-transition:all .5s ease-in-out;
+				-moz-transition:all .5s ease-in-out;
+				-o-transition:all .5s ease-in-out;
+				transition:all .5s ease-in-out;
+			}
+            a.org {
+				border-bottom-style:dashed;
+				border-bottom-width:1px;
+            }
+			a:hover {
+				color:#884;
+				font-size:100%;
+				-webkit-transform:scale(1.1); /* 1.04 */
+				-moz-transform:scale(1.1);
+				-o-transform:scale(1.1);
+				transform:scale(1.1);
+				background-color:#fec;
+			}
+            a.org:hover {
+				border-bottom:dashed #fec;
+				border-bottom-width:1px;
+            }
+			.experience a:hover {
+				border-bottom:dashed #edb;
+				border-bottom-width:1px;
+				background-color:#edb;
+			}
+			h1, h2 {
+				font-variant:small-caps;
+				margin-bottom:0;
+			}
+			h1, h2 {
+				display:inline-block;
+				-webkit-transition:all .5s ease-in-out;
+				-moz-transition:all .5s ease-in-out;
+				-o-transition:all .5s ease-in-out;
+				transition:all .5s ease-in-out;
+			}
+			h1:hover, h2:hover {
+				-webkit-transform:rotate(-5deg) scale(1.2);
+				-moz-transform:rotate(-5deg) scale(1.2);
+				-o-transform:rotate(-5deg) scale(1.2);
+				transform:rotate(-5deg) scale(1.2);
+			}
+			h3 {
+				font-style:italic;
+				margin-top:0;
+				margin-bottom:0;
+			}
+			h4 {
+				margin-top:.5em;
+				margin-bottom:0;
+			}
+			ul {
+				margin-top:0;
+				margin-bottom:0;
+			}
+			.description-wrapper ul.top {
+				list-style:none;
+			}
+			.experience {
+				border:1px solid #aa8;
+				background-color:#edb;
+				padding:10px 10px 10px 30px;
+				margin:20px 0;
+				-webkit-box-shadow:0px 0px 6px #454545;
+				-moz-box-shadow:0px 0px 6px #454545;
+				-o-box-shadow:0px 0px 6px #454545;
+				box-shadow:0px 0px 6px #454545;
+				-webkit-border-radius:15px 90px 15px 90px;
+				-moz-border-radius:15px 90px 15px 90px;
+				-o-border-radius:15px 90px 15px 90px;
+				border-radius:15px 90px 15px 90px;
+				-webkit-transition:all .5s ease-in-out;
+				-moz-transition:all .5s ease-in-out;
+				-o-transition:all .5s ease-in-out;
+				transition:all .5s ease-in-out;
+			}
+			.experience:hover {
+				-webkit-border-radius:10px;
+				-moz-border-radius:0;
+				-o-border-radius:0;
+				border-radius:10px;
+				-webkit-box-shadow:0px 0px 10px #000;
+				-moz-box-shadow:0px 0px 10px #000;
+				-o-box-shadow:0px 0px 10px #000;
+				box-shadow:0px 0px 10px #000;
+			}
+			.underline {
+				border-bottom-style:solid;
+				border-bottom-width:1px;
+				border-color:#aa8;
+				margin-bottom:10px;
+			}
+			.hidden {
+				display:none;
+			}
+			.dates {
+				font-size:80%;
+			}
+			.dates abbr {
+				text-decoration: none;
+			}
+            footer {
+                padding-top:2em;
+                font-size:60%;
+            }
+		</style>
+	</head>
+	<body>
+		<div id="hresume-Garth-Gutenberg">
+			<div class="hresume">
+				<div id="hcard-Garth-Gutenberg" class="contact vcard">
+					<div class="underline"><h1><span class="fn n" id="garth-name">Garth Gutenberg</span></h1></div>
+					<div>Email: <a class="email" href="mailto:garth.gutenberg@gmail.com">garth.gutenberg@gmail.com</a></div>
+					<div>Skype: <a class="url" href="skype:ggutenberg?call">ggutenberg</a></div>
+					<div>Technical Blog: <a class="url" href="http://grinninggecko.com/" target="_blank">grinninggecko.com</a></div>
+				</div>
+
+				<div class="underline"><h2>Qualifications</h2></div>
+				<div id="summary-Garth-Gutenberg">
+					<ul>
+						<li class="summary">Full-stack developer with extremely strong JavaScript skills</li>
+						<li class="summary">Development experience with a wide range of programming languages and methodologies; easily adaptable to new technologies and frameworks</li>
+						<li class="summary">Experience with mobile technologies including Android and iOS development</li>
+						<li class="summary">Big-picture thinker with strong analytical and problem solving skills</li>
+						<li class="summary">Enthusiastic teacher/mentor to junior developers</li>
+						<li class="summary">Proven track-record of on-time on-budget IT project leadership</li>
+					</ul>
+				</div>
+				<div class="underline"><h2>Programming Expertise</h2></div>
+				<div>
+					<a class="skill" href="https://en.wikipedia.org/wiki/Javascript" rel="tag" target="_blank">JavaScript</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/Nodejs" rel="tag" target="_blank">Node.js</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/Amazon_Web_Services" rel="tag" target="_blank">AWS API/SDK</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/TypeScript" rel="tag" target="_blank">TypeScript</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/PhoneGap" rel="tag" target="_blank">Cordova/PhoneGap</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/Html5" rel="tag" target="_blank">HTML5</a>,
+                    <a class="skill" href="https://en.wikipedia.org/wiki/PHP" rel="tag" target="_blank">PHP</a>,
+                    <a class="skill" href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" rel="tag" target="_blank">React</a>,
+                    
+					<a class="skill" href="https://en.wikipedia.org/wiki/Jquery" rel="tag" target="_blank">jQuery</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/PostgreSQL" rel="tag" target="_blank">PostgreSQL</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/NoSQL" rel="tag" target="_blank">NoSQL</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/Css" rel="tag" target="_blank">CSS</a>,
+					<a class="skill" href="https://en.wikipedia.org/wiki/Git_(software)" rel="tag" target="_blank">Git</a>,
+				</div>
+
+				<div class="underline"><h2>Work Experience</h2></div>
+				<div class="vcalendar">
+					<div id="hcalendar-weever-devops-manager" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2013-02-18">January 2016</abbr>
+							-
+							<abbr class="dtend" title="">Present</abbr>
+						</span>
+						<div id="hcard-weever-devops-manager" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">DevOps Manager</h3>
+							<a class="fn org location" href="http://weeverapps.com/" rel="tag" target="_blank">Weever Apps</a>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Ongoing management of infrastructure tasks and third-party DevOps team with a focus on infastructure reliability, reducing costs, and improving developer workflow</li>
+									<li class="description">Managed cloud infrastructure migration from Rackspace to AWS, including Dockerization of server-side applications</li>
+									<li class="description">Developed a CLI tool for managing CouchDB in Node.js</li>
+                                    <li class="description">Developed a multi-purpose, extensible CLI tool for DevOps tasks in Node.js</li>
+                                    <li class="description">Developed multiple AWS Lambda applications using TypeScript and other AWS automation scripts</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-weever-senior-developer" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2013-02-18">February 2013</abbr>
+							-
+							<abbr class="dtend" title="">Present</abbr>
+						</span>
+						<div id="hcard-weever-senior-developer" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Senior Mobile Developer</h3>
+							<a class="fn org location" href="http://weeverapps.com/" rel="tag" target="_blank">Weever Apps</a>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Developed a CLI native build system that packaged web app code into a Cordova application; written in PHP and extremely flexible in order to make use of third-party Cordova plugins, it is also capable of packaging Android, iOS and Blackberry in a single run</li>
+									<li class="description">Built a web-based tool using Backbone.js that allows users to drag and drop controls in order to create custom forms that are stored as JSON configs; also built the application-side processing of these config objects that integrated into our application framework</li>
+									<li class="description">Architected a wide range of applications and systems including custom mobile applications, APIs, Node.js applications, and deployment systems</li>
+									<li class="description">Developed core application framework and custom applications using vanilla JavaScript and Sencha Touch</li>
+									<li class="description">Developed multiple APIs using PHP and Node.js with MySQL and CouchDB data stores</li>
+									<li class="description">Improved processes both logically and via automation, including issue tracking, document management and code deployments</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-freelance-developer" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2008-02-01">February 2008</abbr>
+							-
+							<abbr class="dtend" title="">Present</abbr>
+						</span>
+						<div id="hcard-freelance-developer" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Freelance Developer</h3>
+							<div class="fn org location">Self-Employed</div>
+							<div class="description-wrapper">
+								<ul class="top">
+									<li>
+										<h4>Custom JavaScript</h4>
+										<ul>
+											<li class="description">Developed an Uber companion app that notifies people when you are almost at your destination, using Ionic v2, Node.js, and the Uber API</li>
+											<li class="description">Developed a back-end API in Node.js to support a customer loyalty app for <a href="https://crockadoodle.com/" rel="tag" target="_blank">Crock A Doodle</a></li>
+											<li class="description">One of four developers of <a href="http://dateonfire.com" rel="tag" target="_blank">DateOnFire.com</a> (defunct) utilizing Node.js and various supporting libraries (Backbone.js, Now.js, Jade)</li>
+											<li class="description">Developed <a href="http://www.audiothai.com/" rel="tag" target="_blank">audio thai</a>, an offline web application written exclusively in HTML5, JavaScript / jQuery and CSS3</li>
+											<li class="description">Developed the <a href="https://chrome.google.com/extensions/detail/ojjdiklbbogaliiljdbpbkkkghendjja" rel="tag" target="_blank">Google Chrome Status Bar Extension</a> using JavaScript and jQuery</li>
+											<li class="description">Developed a Google Language Tools retranslate service using the Google Translate API v2 (no longer functioning since Google disabled their Translate API service)</li>
+											<li class="description">Developed a custom Google Maps tool using the Google Maps API v3 and MooTools (not public)</li>
+											<li class="description">Implemented an AJAX "Email photo to friend" feature and incorporated into Joomla/Lightbox on 24Phuket.com (defunct)</li>
+										</ul>
+									</li>
+									<li>
+										<h4>WordPress Development</h4>
+										<ul>
+											<li class="description">Developed an email marketing tool and a tool to assist with a BBM marketing campaign for <a href="http://payd.co/" rel="tag" target="_blank">payd</a></li>
+											<li class="description">WordPress theme development for <a href="http://suretap.com/" rel="tag" target="_blank">suretap</a> (defunct)</li>
+											<li class="description"><a href="http://theupsstore.ca/" rel="tag" target="_blank">The UPS Store</a> &mdash; Developed custom WordPress site, theme, and plugins that enabled each UPS franchise to have its own mini-site, including easy-to-use back-end administration and MongoDB data store / integration</li>
+											<li class="description"><a href="http://marsdd.com/" rel="tag" target="_blank">MaRS Discovery District</a> &mdash; Maintained and enhanced existing WordPress themes</li>
+											<li class="description">
+												<a href="http://heartyourpackage.com/" rel="tag" target="_blank">Heart Your Package</a>,
+												<a href="http://southsidediner.ca/" rel="tag" target="_blank">Southside Diner</a>,
+												<a href="http://www.sugarmommapastries.com/" rel="tag" target="_blank">Sugar Momma Pastries</a>,
+												<a href="http://runwithitwhistler.com/" rel="tag" target="_blank">Run With It</a>,
+												<a href="http://thechooseloveproject.com/" rel="tag" target="_blank">The Choose Love Project</a>,
+												<a href="http://sassdesigns.com/" rel="tag" target="_blank">Sass Designs</a>,
+												<a href="http://cdsmovers.com/" rel="tag" target="_blank">CDS Building Movers</a>,
+												<a href="http://thebusybook.ca/" rel="tag" target="_blank">Busy Book</a>
+												&mdash; End-to-end WordPress Theme and implementation based on designer's PSD
+											</li>
+											<li class="description"><a href="http://dprydemusic.com/" rel="tag" target="_blank">D-Pryde</a> (defunct) &mdash; End-to-end WordPress Theme and implementation, <a href="http://dpryde.tumblr.com/" rel="tag" target="_blank">Tumblr theme</a> and <a href="http://dpryde.bigcartel.com/" rel="tag" target="_blank">Big Cartel theme</a>, based on designer's PSD</li>
+											<li class="description">Developed a custom admin interface for a <a href="http://stocktwits.com/" rel="tag" target="_blank">StockTwits</a> blogging package</li>
+											<li class="description">
+												Assisted in the development of the following WordPress plugins:
+												<ul>
+													<li><a href="http://wordpress.org/extend/plugins/easy-popular-posts/" rel="tag" target="_blank">Easy Popular Posts</a></li>
+													<li><a href="http://wordpress.org/extend/plugins/easy-random-posts/" rel="tag" target="_blank">Easy Random Posts</a></li>
+													<li><a href="http://wordpress.org/extend/plugins/easy-scheduled-posts/" rel="tag" target="_blank">Easy Scheduled Posts</a></li>
+													<li><a href="http://wordpress.org/extend/plugins/stocktwits-ticker-links/" rel="tag" target="_blank">StockTwits Ticker Links</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<h4>Joomla! Development</h4>
+										<ul>
+											<li class="description"><a href="http://www.boatcharterphuket.com/" rel="tag" target="_blank">Boat Charter Phuket</a> &mdash; Fully built and managed</li>
+											<li class="description"><a href="http://www.epic-charters.com/" rel="tag" target="_blank">Epic Charters</a> &mdash; Fully built and managed</li>
+										</ul>
+									</li>
+									<li>
+										<h4>General</h4>
+										<ul>
+											<li class="description">Developed a <a href="http://grinninggecko.com/labs/thai-subtitle-converter/" rel="tag" target="_blank">Thai subtitle converter</a> using PHP</li>
+											<li class="description">Search Engine Optimization</li>
+											<li class="description">Apache Web server management</li>
+											<li class="description">MySQL database management</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-tech-lead" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2012-04-01">April 2012</abbr>
+							-
+							<abbr class="dtend" title="2013-02-15">February 2013</abbr>
+						</span>
+						<div id="hcard-tech-lead" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Mobile, Video, & WordPress Development Lead</h3>
+							<a class="fn org location" href="http://www.postmedia.com/" rel="tag" target="_blank">Postmedia</a>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Led the technical team to deliver the new <a href="http://canada.com/" rel="tag" target="_blank">Canada.com</a> site within a very tight timeframe and with limited resources</li>
+									<li class="description">New project assessment, estimation and implementation</li>
+									<li class="description">Developed multiple WordPress.com VIP approved themes and other websites including <a href="http://canada.com/" rel="tag" target="_blank">Canada.com</a>, <a href="http://driving.ca/" rel="tag" target="_blank">Driving.ca</a> and various newspaper sites/blogs</li>
+									<li class="description">Linux server setup and administration</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-mobile-developer" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2011-10-03">October 2011</abbr>
+							-
+							<abbr class="dtend" title="2012-03-31">March 2012</abbr>
+						</span>
+						<div id="hcard-mobile-developer" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Mobile Developer</h3>
+							<a class="fn org location" href="http://www.postmedia.com/" rel="tag" target="_blank">Postmedia</a>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Google DFP+ integration into desktop and mobile products</li>
+									<li class="description">Mobile-optimized web development utilizing CSS3 media queries and responsive design</li>
+									<li class="description">Integration of various 3rd-party JavaScript APIs (Facebook, Ooyala, Pluck, Omniture)</li>
+									<li class="description">HP TouchPad application development/maintenance</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--<div class="page-break"></div>-->
+					<div id="hcalendar-volunteer-technical-support" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2008-12-01">December 2008</abbr>
+							-
+							<abbr class="dtend" title="2010-01-01">January 2010</abbr>
+						</span>
+						<div id="hcard-volunteer-technical-support" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Volunteer Technical Support</h3>
+							<a class="fn org location" href="http://www.phukethasbeengoodtous.org/" rel="tag" target="_blank">The Phuket Has Been Good To Us Foundation</a>
+							<div class="adr">
+								<span class="region">Phuket</span>,
+								<span class="country-name">Thailand</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">General IT support including hardware, software and networking</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-chief-technology-officer" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2007-02-01">February 2007</abbr>
+							-
+							<abbr class="dtend" title="2008-01-01">January 2008</abbr>
+						</span>
+						<div id="hcard-chief-technology-officer" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Chief Technology Officer</h3>
+							Switch Networks
+							<div class="adr">
+								<span class="locality">Toronto</span>,
+								<span class="region">Ontario</span>,
+								<span class="country-name">Canada</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Improved internal communication and customer service by implementing a help desk ticket management and billing system</li>
+									<li class="description">Physical and logical LAN/WAN architecture, design and deployments at client sites</li>
+									<li class="description">Planning and management of new client deployments including technical analysis of existing infrastructure</li>
+									<li class="description">Provided strategic, long-term consultation both internally and for multiple corporate clients</li>
+									<li class="description">Home Theatre PC / Home Server architecture and design</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-senior-consultant" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2005-01-01">January 2005</abbr>
+							-
+							<abbr class="dtend" title="2007-01-01">January 2007</abbr>
+						</span>
+						<div id="hcard-senior-consultant" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Senior Consultant</h3>
+							<a class="fn org location" href="http://www.four48.com/" rel="tag" target="_blank">four48 Consulting</a>
+							<div class="adr">
+								<span class="locality">Toronto</span>,
+								<span class="region">Ontario</span>,
+								<span class="country-name">Canada</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Designed and implemented a Windows 2003 Active Directory environment that spanned 6 locations across Canada</li>
+									<li class="description">Designed, implemented and managed multiple Exchange organizations with shared hosting environments</li>
+									<li class="description">Developed scripts to manage and automate Windows and Exchange environments</li>
+									<li class="description">Implemented and managed DotNetNuke websites</li>
+									<li class="description">Implemented and managed NetScreen firewalls, including site-to-site IPsec VPNs</li>
+									<li class="description">Developed and maintained standardized desktop image design and rollout for multiple clients</li>
+									<li class="description">Managed and led multiple projects across a number of clients</li>
+									<li class="description">Provided the architecture and design for an Active Directory implementation including a migration from a multi-domain Windows NT 4.0 environment</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-senior-systems-support-analyst" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2004-06-01">June 2004</abbr>
+							-
+							<abbr class="dtend" title="2004-12-01">December 2004</abbr>
+						</span>
+						<div id="hcard-senior-systems-support-analyst" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Senior Systems Support Analyst</h3>
+							<a class="fn org location" href="http://www.bmo.com/" rel="tag" target="_blank">Bank of Montreal – Enterprise Directory Planning & Engineering</a>
+							<div class="adr">
+								<span class="locality">Toronto</span>,
+								<span class="region">Ontario</span>,
+								<span class="country-name">Canada</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Managed the development of a web-based application to request and create IDs in the corporate directory/book of record</li>
+									<li class="description">Managed the migration from Microsoft Metadirectory Server to Microsoft Identity Integration Server</li>
+									<li class="description">Extensively involved in Active Directory and eDirectory planning including schema extensions, policies, hierarchy and identity management</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-senior-application-software-developer" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="2002-10-01">October 2002</abbr>
+							-
+							<abbr class="dtend" title="2004-05-01">May 2004</abbr>
+						</span>
+						<div id="hcard-senior-application-software-developer" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Senior Application Software Developer</h3>
+							<a class="fn org location" href="http://www.bmo.com/" rel="tag" target="_blank">Bank of Montreal - Private Client Division</a>
+							<div class="adr">
+								<span class="locality">Toronto</span>,
+								<span class="region">Ontario</span>,
+								<span class="country-name">Canada</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Developed a Multi-Threaded Windows Forms application using C# and the .NET Framework to provide real-time CPU monitoring on hundreds of computers simultaneously</li>
+									<li class="description">Built a Microsoft Content Management Server site using ASP.NET and C#</li>
+									<li class="description">Designed and developed web-enabled applications, including design and maintenance of a web-based CMS written in ASP using JavaScript, VBScript, and SQL</li>
+									<li class="description">Participated in CMM Level 2 certification</li>
+									<li class="description">Consistently achieved highest possible performance ratings</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="hcalendar-desktop-architect" class="experience vevent">
+						<span class="dates">
+							<abbr class="dtstart" title="1999-10-01">October 1999</abbr>
+							-
+							<abbr class="dtend" title="2002-10-01">October 2002</abbr>
+						</span>
+						<div id="hcard-desktop-architect" class="vcard">
+							<a href="#garth-name" class="include hidden" title="Garth Gutenberg"></a>
+							<h3 class="title summary">Desktop Architect</h3>
+							<a class="fn org location" href="http://www.bmonb.com/" rel="tag" target="_blank">Bank of Montreal - Nesbitt Burns</a>
+							<div class="adr">
+								<span class="locality">Toronto</span>,
+								<span class="region">Ontario</span>,
+								<span class="country-name">Canada</span>
+							</div>
+							<div class="description-wrapper">
+								<ul>
+									<li class="description">Architected and designed Windows 2000 desktop image for deployment across the Private Client Group (200+ physical sites, 3000+ users)</li>
+									<li class="description">Led award-winning VPN/IPSEC implementations to provide internal and external client connectivity</li>
+									<li class="description">Designed and coded policy-defined scripts to provide an advanced, dynamic Windows 2000 environment using VBScript, LDAP, ADSI, ADO and WMI</li>
+									<li class="description">Responsible for 3 year strategic plan for desktops, laptops and PDAs</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+                </div>
+
+				<div class="underline"><h2>Education &amp; Certifications</h2></div>
+				<ul>
+					<li><span id="edu-university" class="education">Honors Bachelor of Mathematics in Computer Science (Partial Completion), University of Waterloo, Canada</span></li>
+					<li><span id="edu-mcse" class="education">Microsoft Certified Systems Engineer</span></li>
+					<li><span id="edu-net-architecture" class="education">Participant in Microsoft .NET Architecture Forum and Online University</span></li>
+					<li><span id="edu-spanish" class="education">Intermediate level proficiency in Spanish</span></li>
+				</ul>
+
+				<div class="underline"><h2>Extracurriculars</h2></div>
+				<ul>
+					<li><span id="extra-hackathons" class="extracurricular">Participant in multiple hackathons including 500px (winner of Best Business Idea), AngelHack, the NASA SpaceApps Challenge, and HackerNest Construct
+					<li><span id="extra-restaurant" class="extracurricular">Owned and operated a Mexican restaurant/guesthouse in Phuket, Thailand</span></li>
+					<li><span id="extra-scuba" class="extracurricular">PADI Open Water Scuba Diver</span></li>
+				</ul>
+			</div>
+        </div>
+        <footer>This resume uses the <a href="http://microformats.org/wiki/h-resume" target="_blank">h-resume microformat</a>, and can be parsed into JSON at <a href="https://php.microformats.io/" target="_blank">https://php.microformats.io/</a></footer>
+	</body>
+</html>
